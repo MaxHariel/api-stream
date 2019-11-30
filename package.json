@@ -2,11 +2,11 @@
   "name": "api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "json-server -p 3003 -w db.json"
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Max",
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.14.2"
